@@ -1,18 +1,23 @@
 # aweber_backend_assessment
+```
 crud widget rest api with django rest framework
+```
 
 ## download pip packages
+```
 pip install django
 pip install djangorestframework
-
+```
 ## run server
+```
 python manage.py runserver
-
+```
 ## run tests
+```
 python manage.py test
-
+```
 ## use postman to test endpoints
-### Get all widgets           
+### Get all widgets 
 GET     /widget
 ### Add widget               
 POST    /widget/add
@@ -25,8 +30,14 @@ DELETE  /widget/{id}/delete
 
 
 ## to add tets data 
+```
 python manage.py shell
+```
 ### use ORM commands to add data
+```
 from django.db import models
+
 widget = Widgets(name="widget_test_data", number_of_parts=5)
+
 widget.save()
+```
