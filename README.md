@@ -32,7 +32,7 @@ PUT     /widget/{id}/update
 DELETE  /widget/{id}/delete
 
 
-## to add tets data 
+## to add test data 
 ```
 python manage.py shell
 ```
