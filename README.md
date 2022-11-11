@@ -4,9 +4,7 @@ crud widget rest api with django rest framework
 
 
 # Doxygen
-'''
-For further documentation, see doxymentation directory and open index.html
-'''
+For further documentation, see ```doxymentation``` directory and open ```index.html```
 
 ## download pip packages
 ```
@@ -34,7 +32,7 @@ PUT     /widget/{id}/update
 DELETE  /widget/{id}/delete
 
 
-## to add test data 
+## to add tets data 
 ```
 python manage.py shell
 ```
